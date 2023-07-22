@@ -1,0 +1,11 @@
+@import 'UTF-8';
+body{
+    font: normal 1em arial, helvica, serif;
+}
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
