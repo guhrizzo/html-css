@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de célula</title>
+    <style>
+        body{
+            background-color: #a9a9a960;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+        caption{
+            background-color: darkgray;
+            border: 1px solid black;
+            font-weight: bold;
+            padding: 7px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <thead>
+            <caption>Células Mescladas</caption>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">A</td>
+                <td rowspan="2">C</td>                
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>E</td> 
+            </tr>
+            <tr>
+                <td colspan="3">G</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
